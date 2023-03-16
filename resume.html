@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <title>my resume</title>
+    <style>
+        *{
+            margin:0px;
+        }
+                    /* Start My Profile */
+        .container{
+            display: flex;  flex-wrap: row wrap; 
+            width: 100%; margin: 0 auto;
+            flex-direction:  row;
+            background-color:white;
+            height: 100%; overflow: auto;
+        }
+        .container>div{
+            margin-top: 30px; padding: 20px; border: 2px solid rgb(38, 36, 36); background-color: rgb(250, 255, 240); border-radius: 10px;
+            color:aliceblue; height: 100%; justify-content: space-between; height: 1000px;
+        }
+        img{
+            height:450px; margin: auto; margin-left:0; width: 350px; padding-top: 0; border-radius: 20px;
+            animation: img; animation-duration: 5s; animation-iteration-count: infinite;
+        }
+        h3{
+            text-align: center; text-transform: capitalize; font-size: x-large;  color: black; 
+        }
+        p{
+            color: black; font-size: large; 
+        }
+        ion-icon{
+           color: green;
+        }
+        a{
+           text-decoration: none; color: black;
+       }
+       .bt{
+          width: 100%; background-color: green; border-radius: 10px;
+       }
+        button{
+          background-color: green; border-radius: 5px; color: white; height: 30px;
+       }  
+                      /* End My Profile */
+       
+                     /*Start My Resume  */
+       .resume{
+          color: black; padding: 50px 0px; background-color:white; border-radius: 10px; margin-top: 50px;
+       }
+        h1 {
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 3.5em;
+       }
+        .Experience{
+           text-decoration: none; left: 0; float: left; font-size: 1.5em;
+       }
+       .date{
+            color: rgb(42, 90, 42); font-family: sans-serif; left: 0; font-size: large;
+       }
+        .title{
+            font-size: large; font-family: sans-serif; letter-spacing: 1px; line-height: -2px;
+       }
+    
+                      /* End My Resume */
+                      @keyframes img{
+                        0%    {box-shadow: 0 0 5px 4px red;}
+                        30%    {box-shadow: 0 0 5px 4px rgb(18, 17, 17);}
+                        50%    {box-shadow: 0 0 5px 4px rgb(9, 222, 27);}
+                        70%    {box-shadow: 0 0 5px 4px rgb(55, 11, 214);}
+                        100%    {box-shadow: 0 0 5px 4px rgb(192, 237, 10);}
+                      }
+</style>
+</head>
+<body>
+    <nav class="container">
+       <!--Start My Proile-->
+            <div style="flex-basis: 500px;" >
+
+             <img src="20220529154128_IMG_8615.JPG" alt="">
+           <h3>Kamlenmang Haokip</h3> <br>
+                <p> <ion-icon name="bag-handle-outline"></ion-icon>
+                    <a href="https://www.mydesigncollections.com/"> &nbsp; Designer <br> <br></a>
+
+                    <ion-icon name="home-outline"></ion-icon> 
+                     <a href="https://goo.gl/maps/vAHXS8rNkKBDmQnRA"> &nbsp; L.Semol CCPur <br> <br></a>
+
+                <ion-icon name="mail-outline"></ion-icon>
+                <a href="mailto:kamlenmang2002@gmail.com">  &nbsp;  kamlenmang@gmail.com <br> <br></a>
+             
+                <ion-icon name="call-outline"></ion-icon>
+                <a href="https://wa.me/+919863084576?Hii"> &nbsp; 9863084576 <br> <br><br> </a>
+
+                <ion-icon name="checkbox-outline"></ion-icon>  &nbsp; skills <br> <br>
+    <a href="<iframe width="914" height="514" src="https://www.youtube.com/embed/z0ckMwQxc1s" title="The Making of Photo-Manipulation: Explore | Photoshop Compositing Tutorial" frameborder="0"
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+     web-share" allowfullscreen></iframe>Adobe Photosop</p></a> 
+     <button type="button" class="bt">70%</button>
+            </div> &nbsp;
+            <!--End My Profile-->
+
+            <!--Start My Resume-->
+            <div style="flex-basis: 1500px;">
+        <div class="resume">    <h1> <ion-icon name="bag-handle-outline"></ion-icon> Work Experience</h1> <br>
+          <h3  class="Experience"><a href="https://www.apple.com/in/">Front End Developer / Apple.com:</h3> <br> <br> <br> </a> 
+
+          <section class="date"> <ion-icon name="calendar-outline"></ion-icon> Nov 2022 -&nbsp; <button type="button">Current</button> <br> <br> </section> 
+
+          <p class="title li">  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, numquam repellendus <br> nostrum fuga,
+         pariatur, reprehenderit dolorum excepturi
+          provident quis maxime nemo eaque dolor <br>  explicabo cum aperiam dicta veritatis.
+        Culpa, laudantium?     </p> <br>
+
+        <h3  class="Experience">
+          <a href="https://www.microsoft.com/en-in"> Web Developer / Microsoft.com:</h3> <br> <br> <br>
+          </a> 
+       <section class="date"> <ion-icon name="calendar-outline"></ion-icon> Dec 2021-Sept 2022</section> <br>
+        <br>
+        <p class="title">
+            consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt Aspernatur <br> 
+             est reprehenderit it
+            sunt hic. Nulla tempora soluta ea et odio, unde doloremque <br>
+             repellendus lure, iste.
+        </p>
+     
+    </div></div> </nav>
+            <!--End My Resume-->
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
